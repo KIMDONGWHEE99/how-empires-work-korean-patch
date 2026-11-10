@@ -1,0 +1,114 @@
+{
+  "game_id": "HOW_EMPIRES_WORK",
+  "steam_build": "26482667",
+  "version": "1.0.1",
+  "candidate": "full_06",
+  "baseline": [
+    {
+      "path": "HowEmpiresWork.exe",
+      "size": 109176832,
+      "sha256": "a0db84d34dfd2e494444d9816c600b7254fafa189732e855d8de343c9a4f4788"
+    },
+    {
+      "path": "HowEmpiresWork.pck",
+      "size": 888532788,
+      "sha256": "13b63a4f53a62dba6b33d46c1b27dc27411de08bc7c790e5b1f8493465e63567"
+    },
+    {
+      "path": "libgodotsteam.windows.template_release.x86_64.dll",
+      "size": 3961344,
+      "sha256": "b7a6316bb866691d01d311e181b76b0fe0c38602913725d1589083bee1db7f26"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 319128,
+      "sha256": "8de54d32508e216c9135b8bf025749243d44e404c1c22a8e5fe35acecabe7a9c"
+    }
+  ],
+  "changes": [
+    {
+      "path": "HowEmpiresWork.pck",
+      "original_sha256": "13b63a4f53a62dba6b33d46c1b27dc27411de08bc7c790e5b1f8493465e63567",
+      "patched_sha256": "41e4a1b11c11501c2dbd36baca6ca83c86f55ea5a3c1370017145761c50f34f2",
+      "forward": "patches/00.forward.xdelta",
+      "forward_roundtrip": {
+        "status": "PASS",
+        "sha256": "41e4a1b11c11501c2dbd36baca6ca83c86f55ea5a3c1370017145761c50f34f2",
+        "delta_sha256": "0b3865cecacf97a1b4242a822b34deb13af27b8a4a80f3bae2b8adafa40884fe"
+      },
+      "reverse": "patches/00.reverse.xdelta",
+      "reverse_roundtrip": {
+        "status": "PASS",
+        "sha256": "13b63a4f53a62dba6b33d46c1b27dc27411de08bc7c790e5b1f8493465e63567",
+        "delta_sha256": "591d56fca98be15b9927ef604755635f583e1c5522fc1cfb841822314318ce0d"
+      }
+    }
+  ],
+  "payload": [
+    {
+      "path": "ChooseGame.ps1",
+      "size": 9451,
+      "sha256": "e5f74707854a7c3fc67f972055e7875e9c76649f726aff13cf38f85a2de24ea4"
+    },
+    {
+      "path": "Install.cmd",
+      "size": 185,
+      "sha256": "08a30176373302eacdbc33cecf2a19a1a52da6029ef903f5cce6f26b06b08013"
+    },
+    {
+      "path": "licenses/NotoEmoji-OFL.txt",
+      "size": 4330,
+      "sha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b"
+    },
+    {
+      "path": "licenses/NotoSansKR-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "licenses/NotoSansSymbols2-OFL.txt",
+      "size": 4383,
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    },
+    {
+      "path": "licenses/SourceHanSans-OFL.txt",
+      "size": 4463,
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+    },
+    {
+      "path": "licenses/xdelta3-APACHE-2.0.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Patch.ps1",
+      "size": 15286,
+      "sha256": "ef0af68eadafbfa35cd985f853c211eaf559b79bf8e04a2020562178c84e5b24"
+    },
+    {
+      "path": "patches/00.forward.xdelta",
+      "size": 227277059,
+      "sha256": "0b3865cecacf97a1b4242a822b34deb13af27b8a4a80f3bae2b8adafa40884fe"
+    },
+    {
+      "path": "patches/00.reverse.xdelta",
+      "size": 767768,
+      "sha256": "591d56fca98be15b9927ef604755635f583e1c5522fc1cfb841822314318ce0d"
+    },
+    {
+      "path": "README.txt",
+      "size": 1262,
+      "sha256": "3aea90e21fcd3b8c7560f40c655b39e88f91165342b9ae2d183ba0557010eb96"
+    },
+    {
+      "path": "Remove.cmd",
+      "size": 187,
+      "sha256": "cd37bc3125b7a486f8ec94c9149f776e975f988a3c0fd41cfbd7aac76c37a845"
+    },
+    {
+      "path": "tools/xdelta3.exe",
+      "size": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    }
+  ]
+}

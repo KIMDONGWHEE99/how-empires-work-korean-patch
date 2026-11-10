@@ -1,0 +1,12 @@
+# 원본·개인 저장·임시 검수 자료는 포함하지 않습니다.
+source_original/
+extracted_private/
+working_private/
+build_candidate/
+saves/
+*.pck
+*.gdc
+*.dll
+*.zip
+*.log
+*.tmp

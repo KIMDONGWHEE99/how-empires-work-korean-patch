@@ -1,0 +1,210 @@
+{
+  "patch_version": "1.0.1",
+  "revision": "r2",
+  "steam_app_id": 4663730,
+  "steam_build": "26482667",
+  "zip_name": "HOW_EMPIRES_WORK_KOREAN_PATCH_1.0.1_r2.zip",
+  "zip_sha256": "931e99a260218ec518261459ba1240ab11f6d08906fc2a2d6358297189686065",
+  "zip_bytes": 228287547,
+  "candidate_sha256": "41e4a1b11c11501c2dbd36baca6ca83c86f55ea5a3c1370017145761c50f34f2",
+  "locale_rows": 2553,
+  "direct_locations": 2732,
+  "unknown": 0,
+  "unresolved_extraction_errors": 0,
+  "unresolved_format_errors": 0,
+  "missing_glyph_warnings": 0,
+  "package_allowlist_files": 14,
+  "delta_roundtrips": "PASS",
+  "installer_tests_pass": 44,
+  "installer_tests_not_applicable": 2,
+  "installer_tests": [
+    {
+      "id": "previous_release_install",
+      "status": "PASS"
+    },
+    {
+      "id": "previous_release_direct_overwrite_refused",
+      "status": "PASS"
+    },
+    {
+      "id": "previous_release_remove",
+      "status": "PASS"
+    },
+    {
+      "id": "previous_release_migration_install",
+      "status": "PASS"
+    },
+    {
+      "id": "previous_release_migration_remove",
+      "status": "PASS"
+    },
+    {
+      "id": "install_original",
+      "status": "PASS"
+    },
+    {
+      "id": "duplicate_install",
+      "status": "PASS"
+    },
+    {
+      "id": "installed_status",
+      "status": "PASS"
+    },
+    {
+      "id": "remove",
+      "status": "PASS"
+    },
+    {
+      "id": "duplicate_remove",
+      "status": "PASS"
+    },
+    {
+      "id": "reinstall",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_without_backup_reverse_patch",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_unsupported_private_prior_candidate",
+      "status": "PASS"
+    },
+    {
+      "id": "altered_pack",
+      "status": "PASS"
+    },
+    {
+      "id": "updated_executable",
+      "status": "PASS"
+    },
+    {
+      "id": "truncated_game_file",
+      "status": "PASS"
+    },
+    {
+      "id": "missing_game_file",
+      "status": "PASS"
+    },
+    {
+      "id": "missing_changed_file",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_forward",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_reverse",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_decoder",
+      "status": "PASS"
+    },
+    {
+      "id": "invalid_game_path",
+      "status": "PASS"
+    },
+    {
+      "id": "unsafe_manifest_path",
+      "status": "PASS"
+    },
+    {
+      "id": "rollback_after_receipt_write_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_after_receipt_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_receipt_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "journal_write_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "rollback_locked_replacement",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_after_file_unlock",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_file_unlock",
+      "status": "PASS"
+    },
+    {
+      "id": "second_replacement_rollback",
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "prepare_backup_corruption",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_corrupt_original_backup",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_interrupted_backup_preparation",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_backup_preparation_recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "forced_process_stop",
+      "status": "PASS"
+    },
+    {
+      "id": "resume_after_forced_stop",
+      "status": "PASS"
+    },
+    {
+      "id": "transient_journal_replace_failure_rolled_back",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_forced_stop_recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "prepare_after_replace_interruption",
+      "status": "PASS"
+    },
+    {
+      "id": "recover_after_atomic_replace",
+      "status": "PASS"
+    },
+    {
+      "id": "prepare_stale_journal",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_mismatched_recovery_journal",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_running_target_path_stub",
+      "status": "PASS"
+    },
+    {
+      "id": "steam_additional_library_and_nested_receipt_discovery",
+      "status": "PASS"
+    },
+    {
+      "id": "mixed_partial_file_install",
+      "status": "NOT_APPLICABLE"
+    }
+  ],
+  "graphics_scope": "새 게임 초기 자연 진행·저장/불러오기·무역 확인 창 및 동일 자산의 이전 대표 화면 검수",
+  "full_playthrough": "NOT_RUN",
+  "post_install_steam_launch": "NOT_RUN",
+  "automatic_save_repair_in_package": false
+}
